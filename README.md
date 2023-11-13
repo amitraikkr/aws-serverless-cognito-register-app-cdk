@@ -1,4 +1,4 @@
-<h1>A Serverless Application : AWS Cognito with Google Sign-In</h1>
+<h1>A Serverless Application: AWS Cognito with Google Sign-In</h1>
 
 <h2>Overview</h2>
 
@@ -10,7 +10,7 @@ This demonstrates the integration of AWS Cognito with Google as an identity prov
 <li>Lambda function integration</li>
 <li>Secured API endpoints using Cognito User Pools</li>
 <li>Infrastructure as Code using AWS CDK</li>
-<ul>
+</ul>
 
 <h2>Prerequisites</h2>
 <ul>
@@ -34,7 +34,7 @@ This demonstrates the integration of AWS Cognito with Google as an identity prov
 <ul>
 <li>Install AWS CDK: npm install -g aws-cdk</li>
 <li>Navigate to the CDK directory and run npm install to install dependencies.</li>
-<li>Deploy the stack: cdk deploy</li>
+<li>Deploy the stack: CDK deploy</li>
 </ul>
 
 <h3>Step 3: Configure AWS Cognito</h3>
@@ -52,7 +52,7 @@ This demonstrates the integration of AWS Cognito with Google as an identity prov
 </ul>
 <h2>Lambda Function</h2>
 
-The Lambda function code is located in the lambda directory. It's a simple Python function that returns a "Hello World" message.
+The Lambda function code is located in the lambda directory. It's a simple Python function that returns a "Hello my register app" message.
 
 <h2>API Gateway</h2>
 
